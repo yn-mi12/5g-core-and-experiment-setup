@@ -1,0 +1,14 @@
+data
+__pycache__
+kind/.dockerhub-auth
+kind/.kind-config.runtime.yaml
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# run logs
+run_all_*.log
+
+# generated image manifest
+kind/preload-images.txt

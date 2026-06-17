@@ -1,0 +1,18 @@
+# B-log-strategies experiment dependencies
+# Install before running run_all.sh:
+#   pip install -r experiments/B-log-strategies/requirements.txt
+
+# Pass 1 — Denum (cloned_repos/Denum)
+pandas
+pyppmd
+regex
+
+# Pass 1 — LogShrink subprocess (cloned_repos/LogShrink/python_compression/run.py)
+projects>=1.0.9
+textdistance>=4.2.1
+tqdm>=4.64.0
+
+# Passes 2–4 — DaemonSet filter agent (these run inside Docker; listed here for
+# host-side preflight check in run_all.sh and for reference)
+drain3
+inotify_simple

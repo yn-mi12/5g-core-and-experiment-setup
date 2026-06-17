@@ -1,0 +1,6 @@
+[submodule "experiments/B-log-strategies/cloned_repos/Denum"]
+	path = experiments/B-log-strategies/cloned_repos/Denum
+	url = https://github.com/gaiusyu/Denum
+[submodule "experiments/B-log-strategies/cloned_repos/LogShrink"]
+	path = experiments/B-log-strategies/cloned_repos/LogShrink
+	url = https://github.com/yn-mi12/LogShrink
